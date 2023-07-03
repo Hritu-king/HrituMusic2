@@ -41,9 +41,8 @@ jobs:
       - name: 📀 Install depenencies. 📀
 
         run: |
-          apt install -f
 
-          apt-get install ffmpeg
+          sudo apt install ffmpeg
 
       - name: 🏃‍♂️ Run the UserClient. 🏃‍♂️
 
