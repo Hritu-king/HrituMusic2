@@ -38,6 +38,10 @@ jobs:
 
           pip install wheel pyrogram tgcrypto requests spotdl yt-dlp aiofiles psutil motor dnspython
 
+- name: 📀 Install dependencies. 📀
+
+        run: |
+
 apt-get install ffmpeg -y
 
       - name: 🏃‍♂️ Run the UserClient. 🏃‍♂️
