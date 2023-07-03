@@ -41,6 +41,7 @@ jobs:
       - name: 📀 Install depenencies. 📀
 
         run: |
+          sudo dpkg --configure -a
 
           apt-get install ffmpeg
 
