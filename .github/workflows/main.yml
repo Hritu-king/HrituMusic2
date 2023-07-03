@@ -38,7 +38,7 @@ jobs:
 
           pip install wheel pyrogram tgcrypto requests spotdl yt-dlp aiofiles psutil motor dnspython
 
-- name: 📀 Install dependencies. 📀
+- name: 📀 Install dependecies. 📀
 
         run: |
 
